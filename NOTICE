@@ -1,0 +1,10 @@
+The number fonts in resources/fonts (number_*.png and number_*.fnt) are bitmap
+renderings of the digits and punctuation 0-9 . : - from Garmin's "Garmin Robo
+Units Bold", a build of Roboto Bold.
+
+Roboto: Copyright 2011 Google Inc. All Rights Reserved.
+Licensed under the Apache License, Version 2.0 (licenses/Apache-2.0.txt,
+http://www.apache.org/licenses/LICENSE-2.0).
+
+Changes: the glyphs were rasterized at fixed pixel sizes, thresholded to 1-bit
+and packed into a bitmap atlas by tools/gen_number_fonts.py.

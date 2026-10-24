@@ -57,3 +57,9 @@ A `.prg` installs only on the device it was built for: copy it to
 - `tools/layout_verify.py` checks the layout math for every slot size and
   device from per-device font metrics dumped from the simulator
   (`METRICS_DIR`).
+
+## Licenses
+
+The bundled number fonts are bitmaps derived from Roboto Bold (Copyright 2011
+Google Inc., Apache License 2.0). See `NOTICE` and `licenses/Apache-2.0.txt`.
+The font file itself is not included.
