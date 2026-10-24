@@ -64,3 +64,8 @@ A `.prg` installs only on the device it was built for: copy it to
 The bundled number fonts are bitmaps derived from Roboto Bold (Copyright 2011
 Google Inc., Apache License 2.0). See `NOTICE` and `licenses/Apache-2.0.txt`.
 The font file itself is not included.
+
+## AI disclosure
+
+This app was built with the help of AI: Claude (Anthropic; the model version
+was not recorded). The author reviews the results and directs the project.
