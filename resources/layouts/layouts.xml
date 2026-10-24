@@ -1,0 +1,18 @@
+<layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <!--
+        MainLayout: label/value positions are adjusted in onLayout() by the exact offsets
+        from the Garmin complex data field template (label: locY-16, value: locY+7).
+        FONT_LARGE matches the template default exactly. The label/value drawables are
+        cleared each update — all rendering is done directly in onUpdate().
+    -->
+    <layout id="MainLayout">
+        <drawable class="Background" />
+        <label id="label" x="center" y="center" color="Graphics.COLOR_LT_GRAY"
+               justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+        <label id="value" x="center" y="center" color="Graphics.COLOR_WHITE"
+               justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_LARGE" />
+    </layout>
+
+</layouts>

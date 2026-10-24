@@ -1,0 +1,24 @@
+project.manifest = manifest.xml
+
+# Icon sizes per device group (later path in list overrides earlier)
+# 35x35
+edge820.resourcePath    = resources;resources-icon35
+edge520plus.resourcePath = resources;resources-icon35
+edge530.resourcePath    = resources;resources-icon35
+edge830.resourcePath    = resources;resources-icon35
+edge540.resourcePath    = resources;resources-icon35
+edge840.resourcePath    = resources;resources-icon35
+# 36x36
+edgeexplore.resourcePath = resources;resources-icon36
+edge1030.resourcePath   = resources;resources-icon36
+edge1030plus.resourcePath = resources;resources-icon36
+edge1030bontrager.resourcePath = resources;resources-icon36
+edgeexplore2.resourcePath = resources;resources-icon36
+edgemtb.resourcePath    = resources;resources-icon36
+# 40x40 — matches the base icon, no override needed
+edge1040.resourcePath   = resources
+# 56x56
+edge850.resourcePath    = resources;resources-icon56
+edge550.resourcePath    = resources;resources-icon56
+# 68x68
+edge1050.resourcePath   = resources;resources-icon68

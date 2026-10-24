@@ -1,0 +1,8 @@
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <string id="TimeLabel">Heure</string>
+    <string id="RouteModeSetting">Affichage mode parcours</string>
+    <string id="RouteModeEta">Heure d'arrivée (ETA)</string>
+    <string id="RouteModeDuration">Durée restante</string>
+    <string id="DurationUnit">h</string>
+</strings>
