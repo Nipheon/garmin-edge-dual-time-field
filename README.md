@@ -42,8 +42,9 @@ SDK="$HOME/Library/Application Support/Garmin/ConnectIQ/Sdks/<current-sdk>"
 "$SDK/bin/connectiq" &
 "$SDK/bin/monkeydo" bin/edge1040.prg edge1040
 
-# Store package for every supported device
-"$SDK/bin/monkeyc" -e -r -o bin/DualTimeField.iq -f monkey.jungle -y ../developer_key -w
+# Store package for every supported device (dist/ is gitignored)
+mkdir -p dist
+"$SDK/bin/monkeyc" -e -r -o dist/DualTimeField-<version>.iq -f monkey.jungle -y ../developer_key -w
 ```
 
 `../developer_key` is your own Connect IQ developer key, kept outside the repo.
