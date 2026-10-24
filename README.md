@@ -1,5 +1,7 @@
 # Smart Time and ETA Field
 
+Available in the Connect IQ store: [Time/ETA Field (Smart)](https://apps.garmin.com/apps/f1ad368b-6143-4482-8476-1f820ab3ecbe)
+
 A Connect IQ data field for Garmin Edge cycling computers that shows the time of
 day and, when a course is loaded, when you will arrive.
 
@@ -28,8 +30,7 @@ Languages: English, German, French, Spanish, Italian, Portuguese, Dutch.
 
 ## Status
 
-Version 1.5.0. Checked in the Connect IQ simulator only, not yet on a real
-device or on a 2.4 firmware unit.
+Version 1.5.0. Tested on an Edge 1040.
 
 ## Build
 
