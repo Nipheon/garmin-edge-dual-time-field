@@ -67,5 +67,5 @@ The font file itself is not included.
 
 ## AI disclosure
 
-This app was built with the help of AI: Claude (Anthropic; the model version
-was not recorded). The author reviews the results and directs the project.
+This app was built with the help of AI: Claude (Anthropic). The author reviews
+the results and directs the project.
